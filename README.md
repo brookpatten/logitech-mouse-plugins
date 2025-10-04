@@ -5,3 +5,7 @@ Generated using [Logi+ SDK](https://logitech.github.io/actions-sdk-docs/Getting-
 Provides "Collission" haptics when mouse cursor touches a desktop boundary.  (seems like an obvious thing to include in a haptic mouse...)
 
 Can be configured using [/src/package/events/extra/eventMapping.yaml](/src/package/events/extra/eventMapping.yaml)
+
+Build/Deploy with `dotnet build`
+
+Build is hacked for windows, you'll need to make it smart about RuntimeIdentifier for use on other platforms.
