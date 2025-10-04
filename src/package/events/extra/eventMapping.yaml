@@ -1,0 +1,6 @@
+haptics:
+    periodic10seconds:
+        DEFAULT: sharp_collision
+    buttonPress:
+        DEFAULT: sharp_state_change
+        MX Master 4: sharp_collision    # Device-specific mapping
