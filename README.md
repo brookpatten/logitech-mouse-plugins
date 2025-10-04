@@ -8,4 +8,4 @@ Can be configured using [/src/package/events/extra/eventMapping.yaml](/src/packa
 
 Build/Deploy with `dotnet build`
 
-Build is hacked for windows, you'll need to make it smart about RuntimeIdentifier for use on other platforms.
+Build is hacked for windows, you'll need to make it smart about $(RuntimeIdentifier) and selecting a native binary for SharpHook for use on other platforms.
